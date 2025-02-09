@@ -1,2 +1,2 @@
-# zap_logs
+# Logging Script For FiveM.
 RedM Logging Script
