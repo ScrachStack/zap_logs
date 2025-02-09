@@ -31,7 +31,7 @@ function sendEmbedToDiscord(webhookUrl, title, description, footerText)
     end, 'POST', json.encode(payload), { ['Content-Type'] = 'application/json' })
 end
 
-local footerText = "Made by discord.gg/cfxdev"
+local footerText = "Made by ScrachStack"
 
 AddEventHandler('playerConnecting', function(name, setKickReason, deferrals)
     local playerName = GetPlayerName(source)
